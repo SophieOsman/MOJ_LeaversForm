@@ -1,0 +1,44 @@
+{
+  "_id": "page.business-unit--2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.business-unit--2--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.business-unit--2--checkboxes--checkbox.input_auto__8",
+          "_type": "checkbox",
+          "label": "Digital - MacBook",
+          "name": "input_auto__8"
+        },
+        {
+          "_id": "page.business-unit--2--checkboxes--checkbox.input_auto__9",
+          "_type": "checkbox",
+          "label": "DOM1 - Windows Machine",
+          "name": "input_auto__9"
+        },
+        {
+          "_id": "page.business-unit--2--checkboxes--checkbox.input_auto__10",
+          "_type": "checkbox",
+          "label": "Quantum / Omni - Closed Circuit Network",
+          "name": "input_auto__10"
+        },
+        {
+          "_id": "page.business-unit--2--checkboxes--checkbox.input_auto__11",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.business-unit--2--checkboxes--checkbox.input_auto__11--text.input_auto__12",
+            "_type": "text",
+            "label": "Other:",
+            "name": "input_auto__12"
+          },
+          "label": "Other:",
+          "name": "input_auto__11"
+        }
+      ],
+      "legend": "Technology Used"
+    }
+  ],
+  "url": "business-unit"
+}

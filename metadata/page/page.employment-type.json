@@ -1,0 +1,47 @@
+{
+  "_id": "page.employment-type",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.employment-type--text.input_auto__4",
+      "_type": "text",
+      "label": "Job Title",
+      "name": "input_auto__4",
+      "widthClassInput": "20"
+    },
+    {
+      "_id": "page.employment-type--radios.input_auto__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.employment-type--radios.input_auto__5--radio.Permanent-",
+          "_type": "radio",
+          "label": "Permanent",
+          "value": "Permanent"
+        },
+        {
+          "_id": "page.employment-type--radios.input_auto__5--radio.Contractor",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "Contractor"
+        },
+        {
+          "_id": "page.employment-type--radios.input_auto__5--radio.Other:",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.employment-type--radios.input_auto__5--radio.Other:--text.input_auto__6",
+            "_type": "text",
+            "label": "Test",
+            "name": "input_auto__6"
+          },
+          "label": "Other:",
+          "value": "Other:"
+        }
+      ],
+      "legend": "Employment Type",
+      "name": "input_auto__5"
+    }
+  ],
+  "heading": "Employment Details",
+  "url": "employment-type"
+}

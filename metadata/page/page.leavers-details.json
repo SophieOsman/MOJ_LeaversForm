@@ -1,0 +1,26 @@
+{
+  "_id": "page.leavers-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.leavers-details--text.input_auto__1",
+      "_type": "text",
+      "label": "Forename",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page.leavers-details--text.input_auto__2",
+      "_type": "text",
+      "label": "Surname",
+      "name": "input_auto__2"
+    },
+    {
+      "_id": "page.leavers-details--email.input_auto__3",
+      "_type": "email",
+      "label": "Leaver Email Address",
+      "name": "input_auto__3"
+    }
+  ],
+  "heading": "Leavers Personal Details",
+  "url": "leavers-details"
+}

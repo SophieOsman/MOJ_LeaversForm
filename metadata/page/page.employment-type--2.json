@@ -1,0 +1,12 @@
+{
+  "_id": "page.employment-type--2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.employment-type--2--select.input_auto__13",
+      "_type": "select",
+      "name": "input_auto__13"
+    }
+  ],
+  "url": "employment-type"
+}
